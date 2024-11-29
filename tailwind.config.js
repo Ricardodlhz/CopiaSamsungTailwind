@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+    
+        'z-fold': "url('assets/images/movilFondo.webp')",
+        
+      }
+
+    },
   },
   plugins: [],
 }
