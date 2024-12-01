@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
+
+        <!-- Header -->
         <header class="container mx-auto flex justify-between items-center flex-wrap mt-4">
             <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32">
                 <rect id="Clear_space" width="120" height="32" fill="none"></rect>
@@ -19,28 +21,29 @@
             </svg>
 
             <ul class="flex gap-4 flex-wrap">
-                <li class="font-medium">Tienda</li>
-                <li class="font-medium">IA</li>
-                <li class="font-medium">Moviles</li>
-                <li class="font-medium">TV & AV</li>
-                <li class="font-medium">Electrodomésticos</li>
-                <li class="font-medium">Informática</li>
-                <li class="font-medium">Displays</li>
-                <li class="font-medium">Accesorios</li>
-                <li class="font-medium">SmartThings</li>
-                <li class="font-medium">Black Friday</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Tienda</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">IA</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Moviles</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Informática</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Displays</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Accesorios</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">SmartThings</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Black Friday</li>
             </ul>
             <div class="flex gap-3">
-                <a href="#" class="font-medium">Soporte</a>
-                <a href="#" class="font-medium">Para Empresas</a>
+                <a href="#" class="font-medium  hover:scale-110 duration-300">Soporte</a>
+                <a href="#" class="font-medium  hover:scale-110 duration-300">Para Empresas</a>
             </div>
             <div class="flex gap-4">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-brands fa-opencart"></i>
-                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass hover:cursor-pointer hover:scale-110 duration-300"></i>
+                <i class="fa-brands fa-opencart hover:cursor-pointer hover:scale-110 duration-300"></i>
+                <i class="fa-regular fa-user hover:cursor-pointer hover:scale-110 duration-300"></i>
             </div>
         </header>
 
+        <!-- expositorio -->
         <div class="container mx-auto mt-10 flex flex-col justify-center   bg-z-fold h-[610px] bg-no-repeat bg-center bg-cover">
             <div class="w-[30%]  flex flex-col gap-4 ml-36">
                 <h1 class="font-bold text-4xl font-[nunito]">Galaxy Z Fold6</h1>
@@ -53,35 +56,53 @@
         </div>
 
         <div class="container mx-auto flex flex-col justify-center items-center mt-10 gap-6">
+             <!-- ofertas y novedades -->
             <h2 class="font-bold text-4xl font-[nunito]">Ofertas y Novedades</h2>
 
             <ul class="flex gap-4 flex-wrap">
-                <li class="font-medium">Mobile</li>
-                <li class="font-medium">TV & AV</li>
-                <li class="font-medium">Electrodomésticos</li>
-                <li class="font-medium">Monitores & Portátiles</li>
-                <li class="font-medium">Entrega y Estrena</li>  
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Mobile</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Monitores & Portátiles</li>
+                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Entrega y Estrena</li>  
             </ul>
+            
 
+           
             <div class="container  flex flex-wrap gap-20 ">
                 <div class=" container lg:w-[40%] ">
-                    <div class="bg-[url('./assets/images/S24.avif')]    w-[100%] h-[684px] rounded-xl bg-center bg-no-repeat"></div>
+                    <div class="movil bg-[url('./assets/images/S24.avif')]  w-[100%] h-[684px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer duration-300 ">
+                        <p class="text-black relative text-center top-[570px] font-bold font-[nunito] text-2xl ">Samsung S24, ¡desde 699€!</p>
+                    </div>
+                        
                 </div>
 
                 <div class="container lg:w-[50%] flex flex-wrap   gap-10">
-                    <div class=" bg-[url('./assets/images/S6.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat">
+                    <div class=" bg-[url('./assets/images/S6.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S6 Lite, ¡llévatela por 199€!</p>
                     </div>
     
-                    <div class=" bg-[url('./assets/images/Watch7.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat">
+                    <div class=" bg-[url('./assets/images/Watch7.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Watch7 40mm BT, ¡consíguelo desde 199€! </p>
                     </div>
     
-                    <div class=" bg-[url('./assets/images/z-flip.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat">
+                    <div class=" bg-[url('./assets/images/z-flip.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Samsung Z Flip6 ¡ahorra hasta 1.103€! </p>
                     </div>
     
-                    <div class=" bg-[url('./assets/images/S9.webp')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat">
+                    <div class=" bg-[url('./assets/images/S9.webp')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S9 FE, ¡desde 381€!</p>
                     </div>
                 </div>
                    
+            </div>
+
+            <!-- Productos -->
+            <div class="container  mt-6">
+                    <div class="flex flex-col justify-center items-center bg-[url('./assets/images/BG_PROD_ZFOLD6.avif')] container border border-red-600">
+                        <h2 class="font-bold text-4xl font-[nunito]">Mobile</h2>
+                        
+                    </div>
             </div>
         </div>
 </body>
