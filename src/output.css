@@ -588,60 +588,16 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
-.top-7 {
-  top: 1.75rem;
-}
-
-.top-32 {
-  top: 8rem;
-}
-
-.top-56 {
-  top: 14rem;
-}
-
-.top-80 {
-  top: 20rem;
-}
-
-.top-96 {
-  top: 24rem;
-}
-
-.top-\[500px\] {
-  top: 500px;
-}
-
-.top-\[600px\] {
-  top: 600px;
+.top-\[240px\] {
+  top: 240px;
 }
 
 .top-\[570px\] {
   top: 570px;
-}
-
-.top-\[270px\] {
-  top: 270px;
-}
-
-.top-\[200px\] {
-  top: 200px;
-}
-
-.top-\[220px\] {
-  top: 220px;
-}
-
-.top-\[240px\] {
-  top: 240px;
 }
 
 .mx-auto {
@@ -657,16 +613,20 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[500px\] {
+  margin-top: 500px;
 }
 
 .flex {
@@ -689,6 +649,10 @@ video {
   width: 7rem;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -699,6 +663,10 @@ video {
 
 .w-\[330px\] {
   width: 330px;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .transform {
@@ -729,6 +697,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-20 {
   gap: 5rem;
 }
@@ -753,17 +725,8 @@ video {
   border-radius: 0.75rem;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-b-2 {
   border-bottom-width: 2px;
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
 }
 
 .border-b-black {
@@ -771,9 +734,31 @@ video {
   border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
+.border-b-white {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\'\.\/assets\/images\/BG_Electrodomesticos\.avif\'\)\] {
+  background-image: url('./assets/images/BG_Electrodomesticos.avif');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/BG_PROD_ZFOLD6\.avif\'\)\] {
+  background-image: url('./assets/images/BG_PROD_ZFOLD6.avif');
+}
+
+.bg-\[url\(\'\.\/assets\/images\/BG_TV\.avif\'\)\] {
+  background-image: url('./assets/images/BG_TV.avif');
 }
 
 .bg-\[url\(\'\.\/assets\/images\/S24\.avif\'\)\] {
@@ -800,10 +785,6 @@ video {
   background-image: url('assets/images/movilFondo.webp');
 }
 
-.bg-\[url\(\'\.\/assets\/images\/BG_PROD_ZFOLD6\.avif\'\)\] {
-  background-image: url('./assets/images/BG_PROD_ZFOLD6.avif');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -820,12 +801,21 @@ video {
   padding: 0.5rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-\[nunito\] {
   font-family: nunito;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -836,11 +826,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -869,24 +854,6 @@ video {
   transition-duration: 300ms;
 }
 
-.hover\:scale-50:hover {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-100:hover {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-125:hover {
-  --tw-scale-x: 1.25;
-  --tw-scale-y: 1.25;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -903,12 +870,17 @@ video {
   cursor: pointer;
 }
 
-.hover\:duration-150:hover {
-  transition-duration: 150ms;
+.hover\:rounded-xl:hover {
+  border-radius: 0.75rem;
 }
 
-.hover\:duration-300:hover {
-  transition-duration: 300ms;
+.hover\:bg-\[\#98989881\]:hover {
+  background-color: #98989881;
+}
+
+.hover\:text-\[\#989898\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(152 152 152 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 1024px) {
