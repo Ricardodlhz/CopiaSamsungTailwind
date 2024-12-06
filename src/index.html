@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,169 +8,328 @@
     <link rel="shortcut icon" href="./assets/images/favicoin.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
 
-        <!-- Header -->
-        <header class="container mx-auto flex justify-between items-center flex-wrap mt-4">
-            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32">
-                <rect id="Clear_space" width="120" height="32" fill="none"></rect>
-                <path id="Logo_ratio" d="M0,11.651V10.511H3.994v1.45a1.334,1.334,0,0,0,1.494,1.346A1.3,1.3,0,0,0,6.932,12.3a1.833,1.833,0,0,0-.026-1.113C6.133,9.243.851,8.363.18,5.333a5.347,5.347,0,0,1-.025-2.02C.567.88,2.705,0,5.359,0c2.113,0,5.025.492,5.025,3.754V4.816H6.674V3.884A1.275,1.275,0,0,0,5.282,2.537a1.25,1.25,0,0,0-1.365,1.01,2.021,2.021,0,0,0,.026.777c.437,1.734,6.081,2.667,6.7,5.8a6.943,6.943,0,0,1,.025,2.46C10.307,15.068,8.091,16,5.412,16,2.6,16,0,14.99,0,11.651ZM48.392,11.6V10.46h3.943v1.424A1.312,1.312,0,0,0,53.8,13.23a1.286,1.286,0,0,0,1.443-.984,1.759,1.759,0,0,0-.025-1.088c-.748-1.915-5.979-2.8-6.648-5.825a5.215,5.215,0,0,1-.026-1.994C48.959.932,51.1.052,53.7.052c2.088,0,4.973.518,4.973,3.728V4.816H54.989V3.91a1.268,1.268,0,0,0-1.365-1.346,1.2,1.2,0,0,0-1.34.984,2.017,2.017,0,0,0,.025.777c.412,1.734,6,2.641,6.623,5.747a6.806,6.806,0,0,1,.025,2.434c-.361,2.486-2.551,3.392-5.2,3.392C50.97,15.9,48.392,14.887,48.392,11.6Zm14.121.545a5.876,5.876,0,0,1-.025-.985V.44H66.25V11.495a4.111,4.111,0,0,0,.025.57,1.468,1.468,0,0,0,2.835,0,3.97,3.97,0,0,0,.026-.57V.44H72.9V11.158c0,.285-.026.829-.026.985-.257,2.8-2.448,3.7-5.179,3.7S62.771,14.938,62.513,12.143Zm30.974-.156A7.808,7.808,0,0,1,93.435,11V4.712c0-.259.025-.725.051-.985C93.821.932,96.063.052,98.717.052c2.629,0,4.947.88,5.206,3.676a7.185,7.185,0,0,1,.025.985V5.2h-3.762V4.376a3.1,3.1,0,0,0-.051-.57,1.553,1.553,0,0,0-2.964,0,3.088,3.088,0,0,0-.051.7V11.34a4.17,4.17,0,0,0,.026.57A1.472,1.472,0,0,0,98.717,13a1.406,1.406,0,0,0,1.52-1.087,2.09,2.09,0,0,0,.026-.57V9.165h-1.52V6.99H104V11a7.674,7.674,0,0,1-.052.984c-.257,2.718-2.6,3.676-5.231,3.676S93.744,14.705,93.487,11.987ZM41.049,15.378l-.1-13.825L38.369,15.378H34.607L32.055,1.553l-.1,13.825H28.242L28.551.466h6.056l1.881,11.651L38.369.466h6.055l.335,14.912Zm-19.79,0L19.249,1.553,17.187,15.378H13.168L15.9.466h6.623l2.732,14.912Zm62.977-.155L80.5,2.822l.206,12.4H77.046V.466h5.514l3.5,12.013L85.859.466h3.685V15.224Z" transform="translate(8 8)"></path>
-            </svg>
+    <!-- Header -->
+    <header class="container mx-auto flex justify-between items-center flex-wrap mt-4">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32">
+            <rect id="Clear_space" width="120" height="32" fill="none"></rect>
+            <path id="Logo_ratio"
+                d="M0,11.651V10.511H3.994v1.45a1.334,1.334,0,0,0,1.494,1.346A1.3,1.3,0,0,0,6.932,12.3a1.833,1.833,0,0,0-.026-1.113C6.133,9.243.851,8.363.18,5.333a5.347,5.347,0,0,1-.025-2.02C.567.88,2.705,0,5.359,0c2.113,0,5.025.492,5.025,3.754V4.816H6.674V3.884A1.275,1.275,0,0,0,5.282,2.537a1.25,1.25,0,0,0-1.365,1.01,2.021,2.021,0,0,0,.026.777c.437,1.734,6.081,2.667,6.7,5.8a6.943,6.943,0,0,1,.025,2.46C10.307,15.068,8.091,16,5.412,16,2.6,16,0,14.99,0,11.651ZM48.392,11.6V10.46h3.943v1.424A1.312,1.312,0,0,0,53.8,13.23a1.286,1.286,0,0,0,1.443-.984,1.759,1.759,0,0,0-.025-1.088c-.748-1.915-5.979-2.8-6.648-5.825a5.215,5.215,0,0,1-.026-1.994C48.959.932,51.1.052,53.7.052c2.088,0,4.973.518,4.973,3.728V4.816H54.989V3.91a1.268,1.268,0,0,0-1.365-1.346,1.2,1.2,0,0,0-1.34.984,2.017,2.017,0,0,0,.025.777c.412,1.734,6,2.641,6.623,5.747a6.806,6.806,0,0,1,.025,2.434c-.361,2.486-2.551,3.392-5.2,3.392C50.97,15.9,48.392,14.887,48.392,11.6Zm14.121.545a5.876,5.876,0,0,1-.025-.985V.44H66.25V11.495a4.111,4.111,0,0,0,.025.57,1.468,1.468,0,0,0,2.835,0,3.97,3.97,0,0,0,.026-.57V.44H72.9V11.158c0,.285-.026.829-.026.985-.257,2.8-2.448,3.7-5.179,3.7S62.771,14.938,62.513,12.143Zm30.974-.156A7.808,7.808,0,0,1,93.435,11V4.712c0-.259.025-.725.051-.985C93.821.932,96.063.052,98.717.052c2.629,0,4.947.88,5.206,3.676a7.185,7.185,0,0,1,.025.985V5.2h-3.762V4.376a3.1,3.1,0,0,0-.051-.57,1.553,1.553,0,0,0-2.964,0,3.088,3.088,0,0,0-.051.7V11.34a4.17,4.17,0,0,0,.026.57A1.472,1.472,0,0,0,98.717,13a1.406,1.406,0,0,0,1.52-1.087,2.09,2.09,0,0,0,.026-.57V9.165h-1.52V6.99H104V11a7.674,7.674,0,0,1-.052.984c-.257,2.718-2.6,3.676-5.231,3.676S93.744,14.705,93.487,11.987ZM41.049,15.378l-.1-13.825L38.369,15.378H34.607L32.055,1.553l-.1,13.825H28.242L28.551.466h6.056l1.881,11.651L38.369.466h6.055l.335,14.912Zm-19.79,0L19.249,1.553,17.187,15.378H13.168L15.9.466h6.623l2.732,14.912Zm62.977-.155L80.5,2.822l.206,12.4H77.046V.466h5.514l3.5,12.013L85.859.466h3.685V15.224Z"
+                transform="translate(8 8)"></path>
+        </svg>
 
-            <ul class="flex gap-4 flex-wrap">
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Tienda</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">IA</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Moviles</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Informática</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Displays</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Accesorios</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">SmartThings</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Black Friday</li>
-            </ul>
-            <div class="flex gap-3">
-                <a href="#" class="font-medium  hover:scale-110 duration-300">Soporte</a>
-                <a href="#" class="font-medium  hover:scale-110 duration-300">Para Empresas</a>
-            </div>
-            <div class="flex gap-4">
-                <i class="fa-solid fa-magnifying-glass hover:cursor-pointer hover:scale-110 duration-300"></i>
-                <i class="fa-brands fa-opencart hover:cursor-pointer hover:scale-110 duration-300"></i>
-                <i class="fa-regular fa-user hover:cursor-pointer hover:scale-110 duration-300"></i>
-            </div>
-        </header>
+        <ul class="flex gap-4 flex-wrap">
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Tienda</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">IA</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Moviles</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Informática</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Displays</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Accesorios</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">SmartThings</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Black Friday</li>
+        </ul>
+        <div class="flex gap-3">
+            <a href="#" class="font-medium  hover:scale-110 duration-300">Soporte</a>
+            <a href="#" class="font-medium  hover:scale-110 duration-300">Para Empresas</a>
+        </div>
+        <div class="flex gap-4">
+            <i class="fa-solid fa-magnifying-glass hover:cursor-pointer hover:scale-110 duration-300"></i>
+            <i class="fa-brands fa-opencart hover:cursor-pointer hover:scale-110 duration-300"></i>
+            <i class="fa-regular fa-user hover:cursor-pointer hover:scale-110 duration-300"></i>
+        </div>
+    </header>
 
-        <!-- expositorio -->
-        <div class="container mx-auto mt-10 flex flex-col justify-center   bg-z-fold h-[610px] bg-no-repeat bg-center bg-cover">
-            <div class="w-[30%]  flex flex-col gap-4 ml-36">
-                <h1 class="font-bold text-4xl font-[nunito]">Galaxy Z Fold6</h1>
-                <p class="font-[nunito]">Ahorra hasta 1.103€ entregando tu antiguo dispositivo</p>
-                <div class="flex gap-6">
-                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/" class="border-b-2 border-b-black font-semibold" target="_blank">Mas informacion</a>
-                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/" class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]" target="_blank">Comprar</a>
-                </div>
+    <!-- expositorio -->
+    <div
+        class="container mx-auto mt-10 flex flex-col justify-center   bg-z-fold h-[610px] bg-no-repeat bg-center bg-cover">
+        <div class="w-[30%]  flex flex-col gap-4 ml-36">
+            <h1 class="font-bold text-4xl font-[nunito]">Galaxy Z Fold6</h1>
+            <p class="font-[nunito]">Ahorra hasta 1.103€ entregando tu antiguo dispositivo</p>
+            <div class="flex gap-6">
+                <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/"
+                    class="border-b-2 border-b-black font-semibold" target="_blank">Mas informacion</a>
+                <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/"
+                    class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]"
+                    target="_blank">Comprar</a>
             </div>
         </div>
+    </div>
 
-        <div class="container mx-auto flex flex-col justify-center items-center mt-10 gap-6">
-             <!-- ofertas y novedades -->
-            <h2 class="font-bold text-4xl font-[nunito]">Ofertas y Novedades</h2>
+    <div class="container mx-auto flex flex-col justify-center items-center mt-10 gap-6">
+        <!-- ofertas y novedades -->
+        <h2 class="font-bold text-4xl font-[nunito]">Ofertas y Novedades</h2>
 
-            <ul class="flex gap-4 flex-wrap">
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Mobile</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Monitores & Portátiles</li>
-                <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Entrega y Estrena</li>  
-            </ul>
-            
+        <ul class="flex gap-4 flex-wrap">
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Mobile</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Monitores & Portátiles</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Entrega y Estrena</li>
+        </ul>
 
-           
-            <div class="container  flex flex-wrap gap-20 ">
-                <div class=" container lg:w-[40%] ">
-                    <div class="movil bg-[url('./assets/images/S24.avif')]  w-[100%] h-[684px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer duration-300 ">
-                        <p class="text-black relative text-center top-[570px] font-bold font-[nunito] text-2xl ">Samsung S24, ¡desde 699€!</p>
-                    </div>
-                        
+
+
+        <div class="container  flex flex-wrap gap-20 ">
+            <div class=" container lg:w-[40%] ">
+                <div
+                    class="movil bg-[url('./assets/images/S24.avif')]  w-[100%] h-[684px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer duration-300 ">
+                    <p class="text-black relative text-center top-[570px] font-bold font-[nunito] text-2xl ">Samsung
+                        S24, ¡desde 699€!</p>
                 </div>
 
-                <div class="container lg:w-[50%] flex flex-wrap   gap-10">
-                    <div class=" bg-[url('./assets/images/S6.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
-                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S6 Lite, ¡llévatela por 199€!</p>
-                    </div>
-    
-                    <div class=" bg-[url('./assets/images/Watch7.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
-                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Watch7 40mm BT, ¡consíguelo desde 199€! </p>
-                    </div>
-    
-                    <div class=" bg-[url('./assets/images/z-flip.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
-                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Samsung Z Flip6 ¡ahorra hasta 1.103€! </p>
-                    </div>
-    
-                    <div class=" bg-[url('./assets/images/S9.webp')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
-                        <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S9 FE, ¡desde 381€!</p>
-                    </div>
-                </div>
-                   
             </div>
 
-            <!-- Productos -->
-            <div class="container  flex flex-col gap-10 mt-6">
+            <div class="container lg:w-[50%] flex flex-wrap   gap-10">
+                <div
+                    class=" bg-[url('./assets/images/S6.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                    <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S6
+                        Lite, ¡llévatela por 199€!</p>
+                </div>
 
-                    <!-- galaxy-z-fold6 -->
-                    <div class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_PROD_ZFOLD6.avif')] bg-no-repeat bg-cover container ">
-                        <h2 class="font-bold text-4xl font-[nunito] mt-12">Mobile</h2>
-                        <ul class="flex gap-4 flex-wrap">
-                            <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-black">Galaxy Z Fold6</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Galaxy Z Flip6</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Galaxy S24 FE</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Galaxy Tab S10 Series</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Galaxy Buds3 Pro</li>  
-                        </ul>
+                <div
+                    class=" bg-[url('./assets/images/Watch7.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                    <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Watch7
+                        40mm BT, ¡consíguelo desde 199€! </p>
+                </div>
+
+                <div
+                    class=" bg-[url('./assets/images/z-flip.avif')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                    <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Samsung Z
+                        Flip6 ¡ahorra hasta 1.103€! </p>
+                </div>
+
+                <div
+                    class=" bg-[url('./assets/images/S9.webp')] w-[330px] h-[330px] rounded-xl bg-center bg-no-repeat hover:scale-105 hover:cursor-pointer  duration-300">
+                    <p class="text-black relative text-center top-[240px] font-bold font-[nunito] text-xl">Galaxy Tab S9
+                        FE, ¡desde 381€!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Productos -->
+        <div class="container  flex flex-col gap-10 mt-6">
+
+            <!-- galaxy-z-fold6 -->
+            <div
+                class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_PROD_ZFOLD6.avif')] bg-no-repeat bg-cover bg-center container ">
+                <h2 class="font-bold text-4xl font-[nunito] mt-12">Mobile</h2>
+                <ul class="flex gap-4 flex-wrap">
+                    <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-black">Galaxy Z Fold6</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Galaxy Z Flip6</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Galaxy S24 FE</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Galaxy Tab S10 Series</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Galaxy Buds3 Pro</li>
+                </ul>
 
 
-                        <div class="flex flex-col gap-2 mt-[500px] pb-8">
-                            <h2 class="font-bold text-4xl font-[nunito]">Galaxy Z Fold6</h2>
-                                <p class="text-center">El mejor PC en tu bolsillo</p>
+                <div class="flex flex-col gap-2 mt-[500px] pb-8">
+                    <h2 class="font-bold text-4xl font-[nunito]">Galaxy Z Fold6</h2>
+                    <p class="text-center">El mejor PC en tu bolsillo</p>
 
-                                <div class="flex gap-6 ">
-                                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/" class="border-b-2 border-b-black font-semibold" target="_blank">Mas informacion</a>
-                                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/" class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]" target="_blank">Comprar</a>
-                                </div>
-                        </div>
-                    </div> 
+                    <div class="flex gap-6 ">
+                        <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/"
+                            class="border-b-2 border-b-black font-semibold" target="_blank">Mas informacion</a>
+                        <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/"
+                            class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]"
+                            target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TV & AV -->
+            <div
+                class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_TV.avif')] bg-no-repeat bg-cover bg-center container ">
+                <h2 class="font-bold text-4xl font-[nunito] mt-12 text-white">TV & AV</h2>
+                <ul class="flex gap-4 flex-wrap">
+                    <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-white  text-white ">Galaxy
+                        Z Fold6</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">
+                        Neo QLED 8K</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">
+                        Neo QLED 4K</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer  duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">
+                        OLED</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer  duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">
+                        The Frame</li>
+                </ul>
+
+
+                <div class="flex flex-col gap-2 mt-[500px] pb-8">
+                    <h2 class="font-bold text-4xl font-[nunito] text-white">Neo QLED 8K</h2>
+                    <p class="text-center text-white">Mas wow que nunca</p>
+
+                    <div class="flex gap-6 ">
+                        <a href="https://www.samsung.com/es/tvs/"
+                            class="border-b-2 border-b-white font-semibold text-white" target="_blank">Mas
+                            informacion</a>
+                        <a href="https://www.samsung.com/es/tvs/all-tvs/?neo-qled-8k"
+                            class="text-black bg-white p-2 rounded-3xl w-28 text-center font-[nunito]"
+                            target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Electrodomésticos -->
+            <div
+                class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_Electrodomesticos.avif')] bg-no-repeat bg-cover bg-center container ">
+                <h2 class="font-bold text-4xl font-[nunito] mt-12">Electrodomésticos</h2>
+                <ul class="flex gap-4 flex-wrap">
+                    <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-black">Galaxy Z Fold6</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Frigorífico Family Hub</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        Eficiencia Energética</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        BESPOKE</li>
+                    <li
+                        class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">
+                        WindFree</li>
+                </ul>
+
+
+                <div class="flex flex-col gap-2 mt-[500px] pb-8 items-center">
+                    <h2 class="font-bold text-4xl font-[nunito]">Frigorífico Family Hub</h2>
+                    <p class="text-center">Organiza tus alimentos con su pantalla táctil y cámara interior AI Vision</p>
+
+
+
+                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/"
+                        class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]"
+                        target="_blank">Comprar</a>
+
+                </div>
+            </div>
+
+
+            <!-- Productos Recomendados -->
+            <h2 class="font-bold text-4xl font-[nunito] text-center">Productos Recomendados</h2>
+            <div class="container flex gap-8 justify-center items-center">
+                <div class="container_img bg-[#F7F7F7]  flex flex-col rounded-md justify-center items-center gap-4 h-[500px]">
+                    <img src="./assets/images/S24Ultra.avif" alt="" class="w-[216px] h-[216px]">
+                    <p class="font-bold text-lg">Galaxy S24 Ultra</p>
+                    <p class="font-bold text-sm">Color: Negro Titanium</p>
+                    <div class="almacenamiento flex gap-4">
+                        <p class="text">256GB</p>
+                        <p class="text border border-black rounded-md w-16 text-center">512GB</p>
+                        <p class="text">1TB</p>
+                    </div>
+
+                    <div class="ahorro flex gap-2">
+                        <p class="text-blue-500">Ahorra 320,01€ Antes</p>
+                        <p class="text-blue line-through">1.819,01€</p>
+                    </div>
+
+                    <a href="#" class="bg-black text-white  text-center w-[160px] p-2 rounded-md hover:bg-gray-300">Comprar</a>
+                </div>
+                <div class="container_img bg-[#F7F7F7] flex flex-col rounded-md justify-center items-center gap-4 h-[500px]" >
+                    <img src="./assets/images/buds3Pro.avif" alt="" class="w-[216px] h-[216px]">
+                    <p class="font-bold text-lg">Galaxy Buds3 Pro</p>
+                    <p class="font-bold text-sm">Color: Gris</p>
+
+                    <div class="ahorro flex gap-2">
+                        <p class="text-blue-500">Ahorra 10,01€ Antes</p>
+                        <p class="text-blue line-through">249,01€</p>
+                    </div>
+
+                    <a href="#" class="bg-black text-white  text-center w-[160px] p-2 rounded-md hover:bg-gray-300">Comprar</a>
+                </div>
+
+                
+                <div class="container_img bg-[#F7F7F7] flex flex-col rounded-md justify-center items-center gap-4 h-[500px]">
+                    <img src="./assets/images/QLED4K.avif" alt="" class="w-[216px] h-[216px]">
+                    <p class="font-bold text-lg">TV QE1D QLED 50” 4K Smart TV 2024</p>
+                    <div class="pulgada flex gap-4s">
+                        <p class="text">50"</p>
+                        <p class="text">55"</p>
+                        <p class="text">65"</p>
+                    </div>
+
+                    <div class="ahorro flex gap-2">
+                        <p class="text-blue-500">Ahorra 200€ Antes</p>
+                        <p class="text-blue line-through">999€</p>
+                    </div>
+
+                    <a href="#" class="bg-black text-white  text-center w-[160px] p-2 rounded-md hover:bg-gray-300">Comprar</a>
                     
-                    <!-- TV & AV -->
-                    <div class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_TV.avif')] bg-no-repeat bg-cover container ">
-                        <h2 class="font-bold text-4xl font-[nunito] mt-12 text-white">TV & AV</h2>
-                        <ul class="flex gap-4 flex-wrap">
-                            <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-white  text-white ">Galaxy Z Fold6</li>
-                            <li class="text-xl font-medium hover:cursor-pointer duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">Neo QLED 8K</li>
-                            <li class="text-xl font-medium hover:cursor-pointer duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">Neo QLED 4K</li>
-                            <li class="text-xl font-medium hover:cursor-pointer  duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">OLED</li>
-                            <li class="text-xl font-medium hover:cursor-pointer  duration-300  text-white hover:bg-[#98989881] hover:rounded-xl w-40 text-center">The Frame</li>  
-                        </ul>
+                </div>
+                <div class="container_img bg-[#F7F7F7] flex flex-col rounded-md justify-center items-center gap-4 h-[500px]">
+                    <img src="./assets/images/TABS6.avif" alt="" class="w-[216px] h-[216px]">
+                    <p class="font-bold text-lg">Galaxy Tab S6 Lite</p>
+                    <p class="font-bold text-sm">Color: Gris</p>
+                    <div class="almacenamiento flex gap-4">
+                        <p class="text">128GB</p>
+                        <p class="text border border-black rounded-md w-16 text-center">256GB</p>
+                        
+                    </div>
 
+                    <div class="ahorro flex gap-2">
+                        <p class="text-blue-500">Ahorra 150,01€ Antes</p>
+                        <p class="text-blue line-through">609,01€</p>
+                    </div>
 
-                        <div class="flex flex-col gap-2 mt-[500px] pb-8">
-                            <h2 class="font-bold text-4xl font-[nunito] text-white">Neo QLED 8K</h2>
-                                <p class="text-center text-white">Mas wow que nunca</p>
+                    <a href="#" class="bg-black text-white  text-center w-[160px] p-2 rounded-md hover:bg-gray-300">Comprar</a>
+                </div>
 
-                                <div class="flex gap-6 ">
-                                    <a href="https://www.samsung.com/es/tvs/" class="border-b-2 border-b-white font-semibold text-white" target="_blank">Mas informacion</a>
-                                    <a href="https://www.samsung.com/es/tvs/all-tvs/?neo-qled-8k" class="text-black bg-white p-2 rounded-3xl w-28 text-center font-[nunito]" target="_blank">Comprar</a>
-                                </div>
-                        </div>
-                    </div> 
-
-
-                    <!-- Electrodomésticos -->
-                    <div class="flex flex-col gap-4 justify-center items-center bg-[url('./assets/images/BG_Electrodomesticos.avif')] bg-no-repeat bg-cover container ">
-                        <h2 class="font-bold text-4xl font-[nunito] mt-12">Electrodomésticos</h2>
-                        <ul class="flex gap-4 flex-wrap">
-                            <li class="text-xl font-medium hover:cursor-pointer  border-b-2 border-b-black">Galaxy Z Fold6</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Frigorífico Family Hub</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">Eficiencia Energética</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">BESPOKE</li>
-                            <li class="text-xl font-medium hover:cursor-pointer hover:scale-110 duration-300 hover:text-[#989898]">WindFree</li>  
-                        </ul>
-
-
-                        <div class="flex flex-col gap-2 mt-[500px] pb-8 items-center">
-                            <h2 class="font-bold text-4xl font-[nunito]">Frigorífico Family Hub</h2>
-                                <p class="text-center">Organiza tus alimentos con su pantalla táctil y cámara interior AI Vision</p>
-
-                               
-                                    
-                                    <a href="https://www.samsung.com/es/smartphones/galaxy-z-fold6/buy/" class="text-white bg-black p-2 rounded-3xl w-28 text-center font-[nunito]" target="_blank">Comprar</a>
-                                
-                        </div>
-                    </div> 
             </div>
+
+            <!-- Explore #DowhatYouCant -->
+            <h2 class="font-bold text-4xl font-[nunito] text-center">Explore #DowhatYouCant</h2>
+             <div class="container flex">
+                <div class="container container_img  flex justify-center">
+                        <img src="./assets/images/bg_explore1.webp" alt="" class="rounded-md text" id="explore_img">
+                </div>
+
+                <div class="container  flex items-center">
+                    <ul class="flex flex-col gap-8" id="explore">
+                        <div class="flex gap-4 hover:cursor-pointer">
+                            <li class="font-bold font-[nunito]  text-3xl">01 </li>
+                            <span class="font-bold font-[nunito] text-3xl">Descubre como nuestra AI te da mas poder</span>
+                        </div>
+                        <div class="flex gap-4 hover:cursor-pointer">
+                            <li class="font-bold font-[nunito]   text-3xl">02 </li>
+                            <span class="font-bold font-[nunito] text-3xl">Pissaladière mediterránea de vieiras</span>
+                        </div>
+                        <div class="flex gap-4 hover:cursor-pointer">
+                            <li class="font-bold font-[nunito]  text-3xl">03 </li>
+                            <span class="font-bold font-[nunito] text-3xl">Conoce a G·NUSMAS, el curioso extraterrestre</span>
+                        </div>
+                        <div class="flex gap-4 hover:cursor-pointer">
+                            <li class="font-bold font-[nunito]   text-3xl">04 </li>
+                            <span class="font-bold font-[nunito] text-3xl">Canapés de ricotta al horno con remolacha</span><
+                        </div>
+                    </ul>
+
+                </div>
+             </div>
         </div>
+    </div>
 </body>
+<script src="./js/script.js"></script>
 </html>
