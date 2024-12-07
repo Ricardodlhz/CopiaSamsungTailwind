@@ -609,12 +609,12 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.ml-36 {
-  margin-left: 9rem;
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
+.ml-36 {
+  margin-left: 9rem;
 }
 
 .ml-8 {
@@ -655,10 +655,6 @@ video {
 
 .mt-\[500px\] {
   margin-top: 500px;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
 }
 
 .flex {
@@ -745,16 +741,8 @@ video {
   width: 400px;
 }
 
-.w-\[40px\] {
-  width: 40px;
-}
-
 .w-\[55\%\] {
   width: 55%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
 }
 
 .transform {
@@ -928,6 +916,10 @@ video {
   background-image: url('./assets/images/bg_Escoger.avif');
 }
 
+.bg-\[url\(\'\.\/assets\/images\/bg_odyssey\.avif\'\)\] {
+  background-image: url('./assets/images/bg_odyssey.avif');
+}
+
 .bg-\[url\(\'\.\/assets\/images\/z-flip\.avif\'\)\] {
   background-image: url('./assets/images/z-flip.avif');
 }
@@ -954,6 +946,10 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-8 {
