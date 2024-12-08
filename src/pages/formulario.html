@@ -26,22 +26,9 @@
             </svg>
         </a>
 
-        <ul class="flex gap-4 flex-wrap">
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Tienda</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">IA</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Moviles</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Informática</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Displays</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300"><a href="#">Accesorios</a></li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">SmartThings</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Black Friday</li>
-        </ul>
-        <div class="flex gap-3">
-            <a href="#" class="font-medium  hover:scale-110 duration-300">Soporte</a>
-            <a href="#" class="font-medium  hover:scale-110 duration-300">Para Empresas</a>
-        </div>
+           
+           
+        
         <div class="flex gap-4">
             <i class="fa-solid fa-magnifying-glass hover:cursor-pointer hover:scale-110 duration-300"></i>
             <i class="fa-brands fa-opencart hover:cursor-pointer hover:scale-110 duration-300"></i>
@@ -49,27 +36,66 @@
         </div>
     </header>
 
-    <div class=" mx-auto bg-white rounded-lg shadow-md p-6 w-[500px] ">
-        <h1 class="text-2xl font-semibold text-blue-600 text-center mb-4">Login</h1>
-        <form action="#" novalidate>
+    <!-- login -->
+    <div class=" mx-auto bg-white rounded-lg shadow-md p-6 w-[500px] mt-52" id="login">
+        <h1 class="text-2xl font-semibold text-blue-600 text-center mb-4">Iniciar Sesion</h1>
+        <form action="#" novalidate id="form">
             <div class="mb-4">
-                <label for="username" class="block text-sm font-medium text-blue-600 mb-1">Username</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username"
+                <label for="username" class="block text-sm font-medium text-blue-600 mb-1">Usuario</label>
+                <input id="usuario" type="text" id="username" name="username" placeholder="Usuario"
                        class="w-full px-4 py-2 border rounded-lg bg-blue-50 border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
             </div>
 
             
             <div class="mb-4">
-                <label for="password" class="block text-sm font-medium text-blue-600 mb-1">Password</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password"
+                <label for="password" class="block text-sm font-medium text-blue-600 mb-1">Contraseña</label>
+                <input let id="password" type="password" id="password" name="password" placeholder="Contraseña"
                        class="w-full px-4 py-2 border rounded-lg bg-blue-50 border-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
             </div>
             <div class="text-center">
                 <button type="submit" class="w-full bg-blue-500 text-white font-medium py-2 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
-                    Login
+                    Iniciar Sesion
                 </button>
             </div>
         </form>
     </div>
+
+    <!-- Pedidos -->
+    <div class="container  mx-auto hidden" id="pedidos">
+
+        <h2 class="text-2xl font-bold mb-4 text-center">Tus Pedidos</h2>
+        
+            <table class="min-w-full bg-white border border-gray-200">
+                <thead>
+                    <tr class="bg-blue-500">
+                        <th class="py-3 px-4 text-left text-white">Producto</th>
+                        <th class="py-3 px-4 text-left text-white">Dirección</th>
+                        <th class="py-3 px-4 text-left text-white">Coste</th>
+                        <th class="py-3 px-4 text-left text-white">Fecha de Tramitación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                        <td class="py-3 px-4">Samsung Z-Fold</td>
+                        <td class="py-3 px-4">Calle Falsa 123, Ciudad</td>
+                        <td class="py-3 px-4">1.250€</td>
+                        <td class="py-3 px-4">2023-12-01</td>
+                    </tr>
+                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                        <td class="py-3 px-4">Galaxy Buds Pro</td>
+                        <td class="py-3 px-4">Av. Siempre Viva 742, Springfield</td>
+                        <td class="py-3 px-4">240€</td>
+                        <td class="py-3 px-4">2023-12-02</td>
+                    </tr>
+                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                        <td class="py-3 px-4">Samsung S24 Ultra</td>
+                        <td class="py-3 px-4">Calle Luna, 45, Madrid</td>
+                        <td class="py-3 px-4">1.000€</td>
+                        <td class="py-3 px-4">2023-12-03</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
 </body>
+<script src="./../js/form.js" type="module"></script>
 </html>
