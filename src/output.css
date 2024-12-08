@@ -596,20 +596,16 @@ video {
   position: relative;
 }
 
+.right-12 {
+  right: 3rem;
+}
+
 .top-\[240px\] {
   top: 240px;
 }
 
 .top-\[570px\] {
   top: 570px;
-}
-
-.right-7 {
-  right: 1.75rem;
-}
-
-.right-12 {
-  right: 3rem;
 }
 
 .mx-auto {
@@ -665,6 +661,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-56 {
+  margin-top: 14rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -675,14 +675,6 @@ video {
 
 .mt-\[500px\] {
   margin-top: 500px;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.mt-56 {
-  margin-top: 14rem;
 }
 
 .block {
@@ -717,6 +709,10 @@ video {
   height: 50px;
 }
 
+.h-\[60\%\] {
+  height: 60%;
+}
+
 .h-\[600px\] {
   height: 600px;
 }
@@ -729,12 +725,12 @@ video {
   height: 684px;
 }
 
-.h-\[70\%\] {
-  height: 70%;
+.h-\[80\%\] {
+  height: 80%;
 }
 
-.h-\[60\%\] {
-  height: 60%;
+.h-\[70\%\] {
+  height: 70%;
 }
 
 .w-16 {
@@ -751,6 +747,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .w-\[100\%\] {
@@ -789,36 +789,20 @@ video {
   width: 55%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-56 {
-  width: 14rem;
+.w-\[300px\] {
+  width: 300px;
 }
 
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[35\%\] {
-  width: 35%;
-}
-
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[45\%\] {
-  width: 45%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[80\%\] {
-  width: 80%;
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .transform {
@@ -873,6 +857,10 @@ video {
   gap: 2rem;
 }
 
+.text-wrap {
+  text-wrap: wrap;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -925,11 +913,6 @@ video {
 .border-blue-300 {
   --tw-border-opacity: 1;
   border-color: rgb(147 197 253 / var(--tw-border-opacity, 1));
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
 }
 
 .border-b-black {
@@ -1138,6 +1121,11 @@ video {
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
