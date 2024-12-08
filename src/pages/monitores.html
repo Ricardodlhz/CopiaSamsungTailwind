@@ -25,22 +25,23 @@
             </svg>
         </a>
 
-        <ul class="flex gap-4 flex-wrap">
+        <ul class="hidden md:flex  gap-4 flex-wrap">
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Tienda</li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">IA</li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Moviles</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">TV & AV</li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300"><a href="#">TV & AV</a></li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Electrodomésticos</li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Informática</li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Displays</li>
-            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300"><a href="#">Accesorios</a></li>
+            <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300"><a href="./accesorios.html">Accesorios</a></li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">SmartThings</li>
             <li class="font-medium hover:cursor-pointer hover:scale-110 duration-300">Black Friday</li>
         </ul>
-        <div class="flex gap-3">
+        <div class="hidden md:flex gap-3">
             <a href="#" class="font-medium  hover:scale-110 duration-300">Soporte</a>
             <a href="#" class="font-medium  hover:scale-110 duration-300">Para Empresas</a>
         </div>
+        <i class="ml-60 fa-solid fa-bars md:hidden"></i>
         <div class="flex gap-4">
             <i class="fa-solid fa-magnifying-glass hover:cursor-pointer hover:scale-110 duration-300"></i>
             <i class="fa-brands fa-opencart hover:cursor-pointer hover:scale-110 duration-300"></i>
@@ -58,7 +59,7 @@
 
     <!-- Introduccion -->
      <div class="container mx-auto flex flex-col justify-center items-center mt-10">
-        <h1 class="font-bold text-4xl font-[nunito]">Encuentra el monitor perfecto para ti</h1>
+        <h1 class="font-bold text-4xl font-[nunito] text-center">Encuentra el monitor perfecto para ti</h1>
         <p class="text-lg mt-4">Explora la amplia gama de monitores Samsung</p>
 
         <div class="container flex  justify-center  flex-wrap  md:flex-nowrap mt-4 md:gap-4  ">
@@ -82,7 +83,7 @@
      <!-- Elige Monitor -->
       <div class="container mx-auto mt-10">
         <h2 class="font-bold text-4xl font-[nunito] text-center">Encuentra el monitor perfecto para ti</h2>
-        <div class="container flex gap-4">
+        <div class="container flex gap-4 flex-wrap md:flex-nowrap">
            <div class="flex flex-col items-center gap-4">
             <img src="./../assets/images/ultraWide.avif" alt="" class="rounded-xl">
             <p class="font-bold font-[nunito] text-2xl">Ultra Wide</p>
